@@ -1,0 +1,30 @@
+{
+    "lite2": false,
+    "bizCode": "onebpAdStrategyShangXin",
+    "startTime": "2024-06-05",
+    "endTime": "2024-06-05",
+    "effectEqual": "15",
+    "unifyType": "zhai",
+    "sourceList": [
+        "scene"
+    ],
+    "queryFieldIn": [
+        "charge",
+        "roi",
+        "alipayDirAmt",
+        "alipayInshopAmt",
+        "colCartCost",
+        "adPv",
+        "click",
+        "ctr",
+        "ecpc",
+        "cartInshopNum",
+        "itemColInshopNum",
+        "cvr",
+        "alipayInshopNum"
+    ],
+    "fromRealTime": true,
+    "splitType": "sum",
+    "queryDomains": [],
+    "csrfId": "a875dd60908cc0dfd50395b767c8c208_1_1_1"
+}

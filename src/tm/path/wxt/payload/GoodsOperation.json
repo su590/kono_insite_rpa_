@@ -1,0 +1,28 @@
+{
+    "lite2": false,
+    "bizCode": "onebpAdStrategyProductSpeed",
+    "startTime": "2024-05-27",
+    "endTime": "2024-05-27",
+    "effectEqual": "15",
+    "unifyType": "zhai",
+    "sourceList": [
+        "scene"
+    ],
+    "queryFieldIn": [
+        "charge",
+        "roi",
+        "alipayDirAmt",
+        "alipayInshopAmt",
+        "adPv",
+        "click",
+        "ctr",
+        "ecpc",
+        "colCartCost",
+        "cartDirNum",
+        "cartInshopNum"
+    ],
+    "fromRealTime": true,
+    "splitType": "sum",
+    "queryDomains": [],
+    "csrfId": "f68c0d12b1123997cce1ce66d0373f5c_1_1_1"
+}

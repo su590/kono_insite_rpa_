@@ -1,0 +1,29 @@
+{
+    "bizCode": "onebpStarShop",
+    "byPage": false,
+    "fromRealTime": true,
+    "startTime": "2025-08-09",
+    "endTime": "2025-08-09",
+    "splitType": "sum",
+    "computeType": "sum",
+    "sourceList": [
+        "scene",
+        "campaign_list"
+    ],
+    "queryDomains": [],
+    "queryFieldIn": [
+        "charge",
+        "roi",
+        "adPv",
+        "click",
+        "ctr",
+        "ecpc",
+        "cartInshopNum",
+        "itemColInshopNum",
+        "shopColDirNum",
+        "alipayInshopNum",
+        "alipayInshopAmt",
+        "alipayInshopUv"
+    ],
+    "csrfId": "f5f0f2cdee8f163130675815d1e7adf1_1_1_1"
+}

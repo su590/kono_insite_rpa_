@@ -1,0 +1,31 @@
+{
+    "bizCode": "udGlobalSmart",
+    "startTime": "2024-06-01",
+    "endTime": "2024-06-01",
+    "sourceList": [
+        "scene"
+    ],
+    "queryFieldIn": [
+        "adPv",
+        "click",
+        "charge",
+        "prepayInshopAmt",
+        "prepayInshopNum",
+        "alipayInshopAmt",
+        "alipayInshopNum",
+        "alipayInshopCost",
+        "cvr",
+        "roi",
+        "cartInshopNum",
+        "cartCost",
+        "colNum",
+        "calCost",
+        "searchClickInshopNum",
+        "clickInshopNumCost"
+    ],
+    "fromRealTime": true,
+    "splitType": "sum",
+    "queryDomains": [],
+    "timeStr": 1717229059370,
+    "csrfId": "3bb58d49882e8a7408d57067aa180f65_1_1_1"
+}

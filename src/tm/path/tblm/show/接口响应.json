@@ -1,0 +1,312 @@
+{
+    "data": [
+        {
+            "hasActivityFilter": false,
+            "reportDataRatio": {
+                "theDateTime": "",
+                "preTotalFee": "0.269",
+                "alipayAmt": "0.2108",
+                "cmTotalFee": "0.4804",
+                "alipayNum": "0.0533",
+                "dimOlapLv1": "0.3333"
+            },
+            "reportData": {
+                "theDateTime": "",
+                "preTotalFee": "165.04999999999998",
+                "alipayAmt": "922.5499999999997",
+                "cmTotalFee": "180.12",
+                "alipayNum": "17",
+                "dimOlapLv1": "2"
+            },
+            "name": "2",
+            "subDimReport": [
+                {
+                    "parentName": "2",
+                    "hasActivityFilter": false,
+                    "reportDataRatio": {
+                        "theDateTime": "",
+                        "preTotalFee": "1",
+                        "alipayAmt": "1",
+                        "cmTotalFee": "1",
+                        "alipayNum": "1",
+                        "dimOlapLv1": "1"
+                    },
+                    "reportData": {
+                        "theDateTime": "",
+                        "preTotalFee": "165.05",
+                        "alipayAmt": "922.55",
+                        "cmTotalFee": "180.12",
+                        "dimOlapLv2": "2_1",
+                        "alipayNum": "17",
+                        "dimOlapLv1": "2"
+                    },
+                    "name": "2_1",
+                    "subDimReport": [
+                        {
+                            "parentName": "2_1",
+                            "hasActivityFilter": false,
+                            "reportDataRatio": {
+                                "theDateTime": "",
+                                "preTotalFee": "1",
+                                "alipayAmt": "1",
+                                "cmTotalFee": "1",
+                                "alipayNum": "1",
+                                "dimOlapLv1": "1"
+                            },
+                            "reportData": {
+                                "theDateTime": "",
+                                "preTotalFee": "165.04999999999998",
+                                "alipayAmt": "922.55",
+                                "cmTotalFee": "180.12",
+                                "dimField": "普通招商",
+                                "dimOlapLv2": "2_1",
+                                "dimOlapLv3": "2_1_1",
+                                "alipayNum": "17",
+                                "dimOlapLv1": "2"
+                            },
+                            "name": "2_1_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hasActivityFilter": false,
+            "reportDataRatio": {
+                "theDateTime": "",
+                "preTotalFee": "0.6885",
+                "alipayAmt": "0.536",
+                "cmTotalFee": "0.4989",
+                "alipayNum": "0.1066",
+                "dimOlapLv1": "0.5"
+            },
+            "reportData": {
+                "theDateTime": "",
+                "preTotalFee": "422.40999999999997",
+                "alipayAmt": "2345.33",
+                "cmTotalFee": "187.04000000000002",
+                "alipayNum": "34",
+                "dimOlapLv1": "3"
+            },
+            "name": "3",
+            "subDimReport": [
+                {
+                    "parentName": "3",
+                    "hasActivityFilter": false,
+                    "reportDataRatio": {
+                        "theDateTime": "",
+                        "preTotalFee": "1",
+                        "alipayAmt": "1",
+                        "cmTotalFee": "1",
+                        "alipayNum": "1",
+                        "dimOlapLv1": "1"
+                    },
+                    "reportData": {
+                        "theDateTime": "",
+                        "preTotalFee": "422.40999999999997",
+                        "alipayAmt": "2345.3300000000004",
+                        "cmTotalFee": "187.04000000000005",
+                        "dimOlapLv2": "3_2",
+                        "alipayNum": "34",
+                        "dimOlapLv1": "3"
+                    },
+                    "name": "3_2",
+                    "subDimReport": [
+                        {
+                            "parentName": "3_2",
+                            "hasActivityFilter": false,
+                            "reportDataRatio": {
+                                "theDateTime": "",
+                                "preTotalFee": "1",
+                                "alipayAmt": "1",
+                                "cmTotalFee": "1",
+                                "alipayNum": "1",
+                                "dimOlapLv1": "1"
+                            },
+                            "reportData": {
+                                "theDateTime": "",
+                                "preTotalFee": "422.40999999999997",
+                                "alipayAmt": "2345.3300000000004",
+                                "cmTotalFee": "187.04",
+                                "dimField": "超级U选",
+                                "dimOlapLv2": "3_2",
+                                "dimOlapLv3": "3_2_5",
+                                "alipayNum": "34",
+                                "dimOlapLv1": "3"
+                            },
+                            "name": "3_2_5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hasActivityFilter": false,
+            "reportDataRatio": {
+                "theDateTime": "",
+                "preTotalFee": "0.0425",
+                "alipayAmt": "0.2532",
+                "cmTotalFee": "0.0207",
+                "alipayNum": "0.8401",
+                "dimOlapLv1": "0.1667"
+            },
+            "reportData": {
+                "theDateTime": "",
+                "preTotalFee": "26.07",
+                "alipayAmt": "1107.7700000000016",
+                "cmTotalFee": "7.7799999999999985",
+                "alipayNum": "268",
+                "dimOlapLv1": "1"
+            },
+            "name": "1",
+            "subDimReport": [
+                {
+                    "parentName": "1",
+                    "hasActivityFilter": false,
+                    "reportDataRatio": {
+                        "theDateTime": "",
+                        "preTotalFee": "0.2175",
+                        "alipayAmt": "0.0902",
+                        "cmTotalFee": "0",
+                        "alipayNum": "0.0075",
+                        "dimOlapLv1": "0.3333"
+                    },
+                    "reportData": {
+                        "theDateTime": "",
+                        "preTotalFee": "5.67",
+                        "alipayAmt": "99.92999999999999",
+                        "cmTotalFee": "0.0",
+                        "dimOlapLv2": "1_3",
+                        "alipayNum": "2",
+                        "dimOlapLv1": "1"
+                    },
+                    "name": "1_3",
+                    "subDimReport": [
+                        {
+                            "parentName": "1_3",
+                            "hasActivityFilter": false,
+                            "reportDataRatio": {
+                                "theDateTime": "",
+                                "preTotalFee": "1",
+                                "alipayAmt": "1",
+                                "alipayNum": "1",
+                                "dimOlapLv1": "1"
+                            },
+                            "reportData": {
+                                "theDateTime": "",
+                                "preTotalFee": "5.67",
+                                "alipayAmt": "99.92999999999999",
+                                "cmTotalFee": "0.0",
+                                "dimField": "定向计划",
+                                "dimOlapLv2": "1_3",
+                                "dimOlapLv3": "1_3_1",
+                                "alipayNum": "2",
+                                "dimOlapLv1": "1"
+                            },
+                            "name": "1_3_1"
+                        }
+                    ]
+                },
+                {
+                    "parentName": "1",
+                    "hasActivityFilter": false,
+                    "reportDataRatio": {
+                        "theDateTime": "",
+                        "preTotalFee": "0.3383",
+                        "alipayAmt": "0.1987",
+                        "cmTotalFee": "0.1684",
+                        "alipayNum": "0.3134",
+                        "dimOlapLv1": "0.3333"
+                    },
+                    "reportData": {
+                        "theDateTime": "",
+                        "preTotalFee": "8.819999999999995",
+                        "alipayAmt": "220.12999999999994",
+                        "cmTotalFee": "1.31",
+                        "dimOlapLv2": "1_2",
+                        "alipayNum": "84",
+                        "dimOlapLv1": "1"
+                    },
+                    "name": "1_2",
+                    "subDimReport": [
+                        {
+                            "parentName": "1_2",
+                            "hasActivityFilter": false,
+                            "reportDataRatio": {
+                                "theDateTime": "",
+                                "preTotalFee": "1",
+                                "alipayAmt": "1",
+                                "cmTotalFee": "1",
+                                "alipayNum": "1",
+                                "dimOlapLv1": "1"
+                            },
+                            "reportData": {
+                                "theDateTime": "",
+                                "preTotalFee": "8.819999999999997",
+                                "alipayAmt": "220.12999999999994",
+                                "cmTotalFee": "1.31",
+                                "dimField": "营销计划日常",
+                                "dimOlapLv2": "1_2",
+                                "dimOlapLv3": "1_2_1",
+                                "alipayNum": "84",
+                                "dimOlapLv1": "1"
+                            },
+                            "name": "1_2_1"
+                        }
+                    ]
+                },
+                {
+                    "parentName": "1",
+                    "hasActivityFilter": false,
+                    "reportDataRatio": {
+                        "theDateTime": "",
+                        "preTotalFee": "0.4442",
+                        "alipayAmt": "0.7111",
+                        "cmTotalFee": "0.8316",
+                        "alipayNum": "0.6791",
+                        "dimOlapLv1": "0.3333"
+                    },
+                    "reportData": {
+                        "theDateTime": "",
+                        "preTotalFee": "11.579999999999993",
+                        "alipayAmt": "787.710000000001",
+                        "cmTotalFee": "6.47",
+                        "dimOlapLv2": "1_1",
+                        "alipayNum": "182",
+                        "dimOlapLv1": "1"
+                    },
+                    "name": "1_1",
+                    "subDimReport": [
+                        {
+                            "parentName": "1_1",
+                            "hasActivityFilter": false,
+                            "reportDataRatio": {
+                                "theDateTime": "",
+                                "preTotalFee": "1",
+                                "alipayAmt": "1",
+                                "cmTotalFee": "1",
+                                "alipayNum": "1",
+                                "dimOlapLv1": "1"
+                            },
+                            "reportData": {
+                                "theDateTime": "",
+                                "preTotalFee": "11.579999999999993",
+                                "alipayAmt": "787.7100000000011",
+                                "cmTotalFee": "6.47",
+                                "dimField": "通用计划",
+                                "dimOlapLv2": "1_1",
+                                "dimOlapLv3": "1_1_1",
+                                "alipayNum": "182",
+                                "dimOlapLv1": "1"
+                            },
+                            "name": "1_1_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "success": true,
+    "resultCode": 200,
+    "bizErrorCode": 0
+}

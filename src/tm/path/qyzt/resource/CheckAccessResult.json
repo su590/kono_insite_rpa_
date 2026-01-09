@@ -1,0 +1,24 @@
+{
+    "data": {
+        "meta": {
+            "nickName": "kono洗护旗舰店X网道集团",
+            "accountType": 2,
+            "memberId": 6520209300
+        },
+        "accessInfo": {
+            "csrfId": "3bb58d49882e8a7408d57067aa180f65_1_1_1"
+        }
+    },
+    "info": {
+        "strategyPoints": null,
+        "lockSla": false,
+        "redirectUrl": null,
+        "errorEntityIdList": null,
+        "httpStatus": null,
+        "errorCode": null,
+        "unlockUrl": null,
+        "ok": true,
+        "message": null,
+        "disableTime": false
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "data":{
+    "list":[
+      {
+        "alipayDirAmt":9225.220000000003,
+        "alipayIndirAmt":3713.9799999999987,
+        "alipayInshopAmt":12939.2,
+        "operationList":[ ],
+        "charge":3701.450000000002,
+        "adPv":50776,
+        "alipayDirNum":157,
+        "alipayDirCvr":0.09463532248342375,
+        "click":1659,
+        "roi":3.4957111402288277,
+        "dirRoi":2.492325980359048,
+        "memberId":319140045
+      }
+    ]
+  },
+  "info":{
+    "strategyPoints":null,
+    "lockSla":false,
+    "redirectUrl":null,
+    "errorEntityIdList":null,
+    "httpStatus":null,
+    "errorCode":null,
+    "unlockUrl":null,
+    "ok":true,
+    "message":null,
+    "disableTime":false
+  }
+}

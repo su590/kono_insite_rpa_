@@ -1,0 +1,33 @@
+import json
+
+d = {
+    'lite2': False,
+    'bizCode': 'onebpSite',
+    'startTime': '2025-02-02',
+    'endTime': '2025-02-02',
+    'effectEqual': '7',
+    'unifyType': 'last_click_by_effect_time',
+    'sourceList': [
+        'scene',
+    ],
+    'queryFieldIn': [
+        'roi',
+        'charge',
+        'alipayInshopAmt',
+        'adPv',
+        'click',
+        'alipayDirAmt',
+        'alipayDirNum',
+        'cartInshopNum',
+        'itemColInshopNum',
+        'alipayInshopNum',
+        'cvr',
+        'ecpc',
+    ],
+    'fromRealTime': True,
+    'splitType': 'sum',
+    'queryDomains': [],
+    'csrfId': '3c85a4b60e11e7c7b7fb2c7fb6af4b68_1_1_1',
+    'loginPointId': '213e385c17384840662168447e6ab1',
+}
+print(json.dumps(d, ensure_ascii=False, indent=4))

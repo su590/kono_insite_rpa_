@@ -1,0 +1,34 @@
+{
+  "lite2":false,
+  "bizCode":"onebpAdStrategyYuRe",
+  "byPage":false,
+  "fromRealTime":true,
+  "startTime":"2024-04-24",
+  "endTime":"2024-04-24",
+  "unifyType":"zhai",
+  "effectEqual":"15",
+  "splitType":"sum",
+  "computeType":"sum",
+  "sourceList":[
+    "scene",
+    "campaign_list"
+  ],
+  "queryDomains":[ ],
+  "queryFieldIn":[
+    "charge",
+    "alipayDirAmt",
+    "roi",
+    "prepayInshopNum",
+    "prepayInshopAmt",
+    "alipayInshopAmt",
+    "adPv",
+    "click",
+    "ctr",
+    "ecpc",
+    "cartInshopNum",
+    "colCartCost",
+    "itemColInshopNum",
+    "ecpm"
+  ],
+  "csrfId":"fa83d8f400d9f24af73571977891f39b_1_1_1"
+}

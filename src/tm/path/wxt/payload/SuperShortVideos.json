@@ -1,0 +1,37 @@
+{
+  "lite2":false,
+  "bizCode":"onebpShortVideo",
+  "byPage":false,
+  "fromRealTime":true,
+  "startTime":"2024-04-24",
+  "endTime":"2024-04-24",
+  "unifyType":"video_kuan",
+  "splitType":"sum",
+  "computeType":"sum",
+  "sourceList":[
+    "scene",
+    "campaign_list"
+  ],
+  "queryDomains":[ ],
+  "queryFieldIn":[
+    "charge",
+    "cartCost",
+    "cartInshopNum",
+    "alipayDirAmt",
+    "alipayInshopAmt",
+    "roi",
+    "feedViewNum",
+    "feedViewNumCost",
+    "click",
+    "ecpc",
+    "videoInteractCnt",
+    "videoInteractRate",
+    "inshopNum",
+    "inshopCost",
+    "videoInshopNumRate",
+    "alipayDirNum",
+    "prepayDirNum",
+    "prepayDirAmt"
+  ],
+  "csrfId":"fa83d8f400d9f24af73571977891f39b_1_1_1"
+}

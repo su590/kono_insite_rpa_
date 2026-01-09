@@ -1,0 +1,8 @@
+requests==2.31.0
+future==1.0.0
+crypto==1.4.1
+DrissionPage==4.0.4.22
+lxml==5.3.0
+PyYAML==6.0.2
+APScheduler==3.10.4
+colorlog==6.8.2

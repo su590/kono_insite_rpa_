@@ -1,0 +1,41 @@
+{
+  "lite2":false,
+  "bizCode":"onebpDisplay",
+  "startTime":"2024-04-24",
+  "endTime":"2024-04-24",
+  "sourceList":[
+    "scene"
+  ],
+  "queryFieldIn":[
+    "charge",
+    "roi",
+    "alipayDirAmt",
+    "alipayInshopAmt",
+    "adPv",
+    "click",
+    "ctr",
+    "ecpc",
+    "ecpm",
+    "cartDirNum",
+    "cartInshopNum",
+    "prepayInshopNum",
+    "prepayInshopAmt",
+    "cartCost",
+    "alipayInshopNum",
+    "shopVisitUv",
+    "shopVisitUvCost",
+    "firstPurchaseUvCost",
+    "repurchaseUvCost",
+    "shopVisitUvRate",
+    "addNewUv",
+    "addNewUvAllCost",
+    "firstPurchaseUv",
+    "repurchaseUvRate",
+    "firstPurchaseUvRate",
+    "cvr"
+  ],
+  "fromRealTime":true,
+  "splitType":"sum",
+  "queryDomains":[ ],
+  "csrfId":"fa83d8f400d9f24af73571977891f39b_1_1_1"
+}

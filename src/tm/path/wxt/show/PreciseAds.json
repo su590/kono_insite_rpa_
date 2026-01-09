@@ -1,0 +1,46 @@
+
+{
+    "data": {
+        "list": [
+            {
+                "alipayInshopAmt": 4223.02,
+                "prepayInshopNum": 0,
+                "alipayInshopNum": 58,
+                "cartDirNum": 92,
+                "cartIndirNum": 12,
+                "prepayInshopAmt": 0.0,
+                "roi": 1.4333834545633517,
+                "cartCost": 28.328749999999996,
+                "prepayIndirAmt": 0.0,
+                "prepayIndirNum": 0,
+                "prepayDirNum": 0,
+                "cvr": 0.029804727646454265,
+                "memberId": 319140045,
+                "alipayDirAmt": 3978.4100000000003,
+                "ctr": 0.005545723722645418,
+                "alipayIndirAmt": 244.60999999999999,
+                "charge": 2946.1899999999996,
+                "adPv": 350901,
+                "prepayDirAmt": 0.0,
+                "alipayIndirNum": 5,
+                "alipayDirNum": 53,
+                "click": 1946,
+                "ecpm": 8.396071826526569,
+                "cartInshopNum": 104,
+                "ecpc": 1.5139722507708118
+            }
+        ]
+    },
+    "info": {
+        "strategyPoints": null,
+        "lockSla": false,
+        "redirectUrl": null,
+        "errorEntityIdList": null,
+        "httpStatus": null,
+        "errorCode": null,
+        "unlockUrl": null,
+        "ok": true,
+        "message": null,
+        "disableTime": false
+    }
+}

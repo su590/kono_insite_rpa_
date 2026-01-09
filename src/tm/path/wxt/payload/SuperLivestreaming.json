@@ -1,0 +1,30 @@
+{
+  "lite2":false,
+  "bizCode":"onebpLive",
+  "byPage":false,
+  "fromRealTime":true,
+  "startTime":"2024-04-24",
+  "endTime":"2024-04-24",
+  "splitType":"sum",
+  "computeType":"sum",
+  "sourceList":[
+    "scene",
+    "campaign_list"
+  ],
+  "queryDomains":[ ],
+  "queryFieldIn":[
+    "liveViewNum",
+    "liveViewCost",
+    "charge",
+    "roi",
+    "itemColInshopNum",
+    "alipayDirAmt",
+    "alipayInshopAmt",
+    "alipayInshopNum",
+    "cartInshopNum",
+    "inshopNum",
+    "feedInshopNumRate",
+    "zbInteractCnt"
+  ],
+  "csrfId":"fa83d8f400d9f24af73571977891f39b_1_1_1"
+}
