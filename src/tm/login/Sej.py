@@ -5,6 +5,7 @@
 @Desc     : <None>
 
 """
+import time
 
 from DrissionPage import ChromiumPage, ChromiumOptions
 
@@ -47,21 +48,22 @@ def login(account: Account) -> ChromiumPage:
     page(e_login_tab).click()
     typewrite(page, 'c:[id="fm-login-id"]', account.user)
     typewrite(page, 'c:[id="fm-login-password"]', account.pwd)
-    url: str = page.url
+    time.sleep(1)
     page('c:.password-login').click()
+    time.sleep(1)
     page('css:.dialog-btn.dialog-btn-ok').click()
-    page.wait.url_change(url)
-    CAPTCHA_INPUT: str = 'c:input[placeholder="请输入验证码"]'
-    page.wait.eles_loaded([
-        'c:[class="banner_selected_font"]', CAPTCHA_INPUT
-    ], any_one=True, raise_err=True)
-    if page(CAPTCHA_INPUT):
-        old_captcha: str = get_sms_captcha('阿里巴巴')
-        page('c:[id="J_GetCode"]').click()
-        new_captcha: str = get_new_sms_captcha('阿里巴巴', old_captcha)
-        typewrite(page, CAPTCHA_INPUT, new_captcha)
-        url: str = page.url
-        page('c:[id="submitBtn"]').click()
-        page.wait.url_change(url)
-    assert page.wait.ele_displayed('c:[class="banner_selected_font"]', raise_err=True)
+    time.sleep(20)
+    # CAPTCHA_INPUT: str = 'c:input[placeholder="请输入验证码"]'
+    # page.wait.eles_loaded([
+    #     'c:[class="banner_selected_font"]', CAPTCHA_INPUT
+    # ], any_one=True, raise_err=True)
+    # if page(CAPTCHA_INPUT):
+    #     old_captcha: str = get_sms_captcha('阿里巴巴')
+    #     page('c:[id="J_GetCode"]').click()
+    #     new_captcha: str = get_new_sms_captcha('阿里巴巴', old_captcha)
+    #     typewrite(page, CAPTCHA_INPUT, new_captcha)
+    #     url: str = page.url
+    #     page('c:[id="submitBtn"]').click()
+    #     page.wait.url_change(url)
+    # assert page.wait.ele_displayed('c:[class="banner_selected_font"]', raise_err=True)
     return page
